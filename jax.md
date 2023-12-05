@@ -221,5 +221,5 @@ RUN eval "$(pyenv init -)" && pyenv local ${PYTHON_VERSION} && pip3 install --up
 
 ### 4. Finally you can get a Docker image called jax.rocm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU3ODk4MjEsLTgyMDM1OTIzN119
+eyJoaXN0b3J5IjpbLTEyOTU3ODk4MjFdfQ==
 -->
