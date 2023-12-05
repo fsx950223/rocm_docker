@@ -3,11 +3,7 @@
 
 ### 1. Clone jax repo
 
-```
-
-git clone -b rocm-jaxlib-v0.4.16 https://github.com/ROCmSoftwarePlatform/xla
-
-```
+```git clone -b rocm-jaxlib-v0.4.16 https://github.com/ROCmSoftwarePlatform/xla```
 
 ### 2. Create a Dockerfile like following:
 
@@ -221,13 +217,9 @@ RUN eval "$(pyenv init -)" && pyenv local ${PYTHON_VERSION} && pip3 install --up
 
 ### 3. Build Docker image
 
-```
-
-DOCKERFILE_PATH=./Dockerfile XLA_REPO=https://github.com/ROCmSoftwarePlatform/xla XLA_BRANCH=rocm-jaxlib-v0.4.16 sudo ./ci_build.sh --keep_image --py_version 3.9.0 --runtime bash -c "./build_rocm.sh"
-
-```
+```DOCKERFILE_PATH=./Dockerfile XLA_REPO=https://github.com/ROCmSoftwarePlatform/xla XLA_BRANCH=rocm-jaxlib-v0.4.16 sudo ./ci_build.sh --keep_image --py_version 3.9.0 --runtime bash -c "./build_rocm.sh"```
 
 ### 4. Finally you can get a Docker image called jax.rocm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDM1OTIzN119
+eyJoaXN0b3J5IjpbLTEyOTU3ODk4MjEsLTgyMDM1OTIzN119
 -->
