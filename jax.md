@@ -229,5 +229,5 @@ DOCKERFILE_PATH=./Dockerfile XLA_REPO=https://github.com/ROCmSoftwarePlatform/xl
 
 ### 4. Finally you can get a Docker image called jax.rocm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDM1OTIzNywxNzU3NDk1ODY4XX0=
+eyJoaXN0b3J5IjpbLTgyMDM1OTIzN119
 -->
